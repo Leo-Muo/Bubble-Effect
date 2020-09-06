@@ -1,5 +1,6 @@
 function setup() {
   createCanvas(600, 300);
+  frameRate(60);
   bubble.push(new Bubble());
 }
 
